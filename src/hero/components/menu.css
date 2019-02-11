@@ -1,0 +1,16 @@
+.menu {
+  /* border: solid green 2px; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.menu ul li {
+  display: inline-block;
+  padding: 8px;
+}
+
+.menu ul li a {
+  color: rgb(108,110,90);
+  text-decoration: none;
+}

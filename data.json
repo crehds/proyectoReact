@@ -1,0 +1,57 @@
+{
+  "header":
+  {
+    "id": "1",
+    "description": "Header",
+    "title": "Header",
+    "menu":[
+      {
+        "id": "1",
+        "href": "#1",
+        "title": "Inicio"
+      },
+      {
+        "id": "2",
+        "href": "#3",
+        "title": "Nosotros"
+      },
+      {
+        "id": "3",
+        "href": "#4",
+        "title": "Servicios"
+      },
+      {
+        "id": "4",
+        "href": "#5",
+        "title": "Contacto"
+      },
+      {
+        "id": "5",
+        "href": "#6",
+        "title": "Galería"
+      }
+    ],
+    "imgIndustrial":"./images/advisorindustrial.webp",
+    "imgClimatizacion":"./images/advisorclimatizacion.webp"
+  },
+  "history":
+  {
+    "id": "2",
+    "description": "History",
+    "title": "History",
+    "data":[
+      {
+        "id": "1",
+        "title": "Misión"
+      },
+      {
+        "id": "2",
+        "title": "Visión"
+      },
+      {
+        "id": "3",
+        "title": "Nosotros"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', system-ui;
+  background: rgba(240,241,241,.7);
+}
+
+.home-layout {
+  margin:0;
+  max-width:100%;
+  min-height: 100%;
+  border: 3px solid brown;
+}

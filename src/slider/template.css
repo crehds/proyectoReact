@@ -1,0 +1,17 @@
+.template {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+
+.template div {
+  display: block;
+  padding-left: 100px;
+  padding-right: 100px;
+  border: gray 2px solid;
+  width: 40%;
+  background: rgba(240,241,241,.7);
+}

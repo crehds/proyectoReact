@@ -1,0 +1,17 @@
+.header-layout {
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid lightblue;
+}
+
+.header-layout div:nth-of-type(1) {
+  /* background-color: rgba(137,196,68,.4); */
+}
+.header-layout div:nth-of-type(2) {
+  /* background-color: rgba(0,196,223,.4); */
+}

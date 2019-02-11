@@ -1,0 +1,12 @@
+.History {
+  padding-top: 20px;
+  border: solid 2px black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+
+.History div:nth-of-type(3) {
+  border: 2px solid red;
+  grid-column: 1 / 3;
+}
