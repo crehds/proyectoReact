@@ -1,11 +1,12 @@
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = (env) => {
   const plugins = [
       new MiniCssExtractPlugin({
-        filename: './css/[name].[hash].css',
+        filename: './css/[name].css',
         chunkFilename: '[id].[chunckhash].css',
       }),
   ];
@@ -66,5 +67,14 @@ module.exports = (env) => {
         ],
       },
     plugins,
+    optimization: {
+      minimizer: [
+        new OptimizeCssAssetsPlugin({
+          cssProcessorOptions: {
+            zindex: false,
+          },
+        }),
+      ],
+    },
   };
 };
