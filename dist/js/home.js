@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 19);
+/******/ 	return __webpack_require__(__webpack_require__.s = 20);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -243,7 +243,7 @@ if (true) {
 /* 4 */
 /***/ (function(module) {
 
-module.exports = {"header":{"id":"1","description":"Header","title":"Header","menu":[{"id":"1","href":"#1","title":"Inicio"},{"id":"2","href":"#3","title":"Nosotros"},{"id":"3","href":"#4","title":"Servicios"},{"id":"4","href":"#5","title":"Contacto"},{"id":"5","href":"#6","title":"Galería"}],"imgIndustrial":"./images/advisorindustrial.webp","imgClimatizacion":"./images/advisorclimatizacion.webp"},"history":{"id":"2","description":"History","title":"History","data":[{"id":"1","title":"Misión"},{"id":"2","title":"Visión"},{"id":"3","title":"Nosotros"}]}};
+module.exports = {"header":{"id":"1","description":"Header","title":"Header","menu":[{"id":"1","href":"#1","title":"Inicio"},{"id":"2","href":"#3","title":"Nosotros"},{"id":"3","href":"#4","title":"Servicios"},{"id":"4","href":"#5","title":"Contacto"},{"id":"5","href":"#6","title":"Galería"}],"imgIndustrial":"./images/advisorindustrial.webp","imgClimatizacion":"./images/advisorclimatizacion.webp"},"history":{"id":"2","description":"History","title":"History","data":[{"id":"1","title":"Misión"},{"id":"2","title":"Visión"},{"id":"3","title":"Nosotros"}]},"services":{"id":"3","description":"Servicios","title":"Servicios","data":[{"id":"1","title":"Industral","data":[{"id":"1","description":"Arquitectura y Obras Civiles"},{"id":"2","description":"Red"},{"id":"3","description":"Fibra Óptica"},{"id":"4","description":"Accesos"}]},{"id":"2","title":"Climatización","data":[{"id":"1","description":"Mantención de aire acondicionado"},{"id":"2","description":"Ingeniería de climatización"},{"id":"3","description":"Venta"}]}]},"contacto":{},"galeria":{}};
 
 /***/ }),
 /* 5 */
@@ -701,6 +701,12 @@ unstable_ConcurrentMode:x,unstable_Profiler:u,__SECRET_INTERNALS_DO_NOT_USE_OR_Y
 
 /***/ }),
 /* 19 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1025,6 +1031,64 @@ function History(props) {
 }
 
 /* harmony default export */ var containers_History = (History);
+// EXTERNAL MODULE: ./src/services/components/services-layout.css
+var services_layout = __webpack_require__(19);
+
+// CONCATENATED MODULE: ./src/services/components/Services-Layout.jsx
+
+
+
+function ServicesLayout(props) {
+  return react_default.a.createElement("section", {
+    className: "Services"
+  }, props.children);
+}
+
+/* harmony default export */ var Services_Layout = (ServicesLayout);
+// CONCATENATED MODULE: ./src/services/containers/Services.jsx
+function Services_typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { Services_typeof = function _typeof(obj) { return typeof obj; }; } else { Services_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return Services_typeof(obj); }
+
+function Services_classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function Services_defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function Services_createClass(Constructor, protoProps, staticProps) { if (protoProps) Services_defineProperties(Constructor.prototype, protoProps); if (staticProps) Services_defineProperties(Constructor, staticProps); return Constructor; }
+
+function Services_possibleConstructorReturn(self, call) { if (call && (Services_typeof(call) === "object" || typeof call === "function")) { return call; } return Services_assertThisInitialized(self); }
+
+function Services_assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function Services_getPrototypeOf(o) { Services_getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return Services_getPrototypeOf(o); }
+
+function Services_inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) Services_setPrototypeOf(subClass, superClass); }
+
+function Services_setPrototypeOf(o, p) { Services_setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return Services_setPrototypeOf(o, p); }
+
+
+
+
+var Services_Services =
+/*#__PURE__*/
+function (_Component) {
+  Services_inherits(Services, _Component);
+
+  function Services() {
+    Services_classCallCheck(this, Services);
+
+    return Services_possibleConstructorReturn(this, Services_getPrototypeOf(Services).apply(this, arguments));
+  }
+
+  Services_createClass(Services, [{
+    key: "render",
+    value: function render() {
+      return react_default.a.createElement(Services_Layout, null, react_default.a.createElement("div", null, react_default.a.createElement("h2", null, "Servicios")), react_default.a.createElement("div", null, "Industrial"), react_default.a.createElement("div", null, "Climatizaci\xF3n"), react_default.a.createElement("div", null, "Im\xE1genes"));
+    }
+  }]);
+
+  return Services;
+}(react["Component"]);
+
+/* harmony default export */ var containers_Services = (Services_Services);
 // CONCATENATED MODULE: ./src/pages/containers/Home.jsx
 function Home_typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { Home_typeof = function _typeof(obj) { return typeof obj; }; } else { Home_typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return Home_typeof(obj); }
 
@@ -1050,6 +1114,7 @@ function Home_setPrototypeOf(o, p) { Home_setPrototypeOf = Object.setPrototypeOf
 
 
 
+
 var Home_Home =
 /*#__PURE__*/
 function (_Component) {
@@ -1068,6 +1133,8 @@ function (_Component) {
         header: this.props.data.header
       }), react_default.a.createElement(containers_History, {
         history: this.props.data.history
+      }), react_default.a.createElement(containers_Services, {
+        services: this.props.data.services
       })));
     }
   }]);
