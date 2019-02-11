@@ -53,5 +53,55 @@
         "title": "Nosotros"
       }
     ]
-  }
+  },
+  "services":
+  {
+    "id": "3",
+    "description":"Servicios",
+    "title": "Servicios",
+    "data":[
+      {
+        "id": "1",
+        "title": "Industral",
+        "data":[
+          {
+            "id": "1",
+            "description":"Arquitectura y Obras Civiles"
+          },
+          {
+            "id": "2",
+            "description":"Red"
+          },
+          {
+            "id": "3",
+            "description":"Fibra Óptica"
+          },
+          {
+            "id": "4",
+            "description":"Accesos"
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "Climatización",
+        "data":[
+          {
+            "id": "1",
+            "description":"Mantención de aire acondicionado"
+          },
+          {
+            "id": "2",
+            "description":"Ingeniería de climatización"
+          },
+          {
+            "id": "3",
+            "description":"Venta"
+          }
+        ]
+      }
+    ]
+  },
+  "contacto":{},
+  "galeria":{}
 }
